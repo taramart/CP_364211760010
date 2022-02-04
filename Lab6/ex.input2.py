@@ -25,6 +25,6 @@ print(mylist)
 # mylist = [int(x) for x in input('Enter any number: ').split()]
 # print(mylist)
 
-myEven = [int(x) for x in
-          input('Enter any number: ').split() if int(x)%2==0]
-print(myEven)
+# myEven = [int(x) for x in
+#           input('Enter any number: ').split() if int(x)%2==0]
+# print(myEven)
