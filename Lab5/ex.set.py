@@ -24,7 +24,7 @@ print(mynum)
 myset.update(mynum)
 print(myset)
 
-# removr data in set
+# remove data in set
 # remove()
 myset.remove('banana')
 if 'papaya' in myset:
