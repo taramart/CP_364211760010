@@ -28,7 +28,7 @@ print(f'y = {y}')
 print(type(y))
 
 # แสดงผลค่าตัวแปร x และ y โดยมีข้อความดังนี้  "x is 100 and y is 200"
-print('x is' ,x,'and y is',y)
+print('x is',x,'and y is',y)
 
 # หาผลรวมของตัวแปร x และ y และเก็บไว้ในตัวแปร z
 z = x+y
