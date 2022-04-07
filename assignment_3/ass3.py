@@ -1,3 +1,9 @@
+"""
+Name: [ธารมาส แก้วมณ๊]
+SID: [36411760010]
+Group: [MIT211]
+"""
+
 # Assignment 3 Q1
 
 def myfunc(a,b,c):
