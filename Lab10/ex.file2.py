@@ -26,7 +26,7 @@ except Exception as e:
 else:
     print('writing contents already.')
 finally:
-    f.close()
+    ##f.close()
 
 
 # create file with mode 'w'

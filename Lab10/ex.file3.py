@@ -14,7 +14,7 @@ import os.path
 
 # delete file
 
-#if os.path.exists("C:\\Users\USER\Desktop\demo.txt")
+##if os.path.exists("C:\\Users\USER\Desktop\demo.txt")
    # os.remove("C:\\Users\USER\Desktop\demo.txt")
 #else:
    # print('could not')
