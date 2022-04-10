@@ -16,7 +16,7 @@ print(newlist)
 # จากข้อมูลใน mylist ให้ทำการเปลี่ยนข้อมูล
 # ที่มีค่ามากกว่า 50 เป็น 50 ทั้งหมด
 print(mylist)
-newlist = [x if x<50 else x =50 for x in mylist]
+#newlist = [x if x<50 else x =50 for x in mylist]
 print(newlist)
 
 # reverse data in list

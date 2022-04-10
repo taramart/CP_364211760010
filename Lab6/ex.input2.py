@@ -1,12 +1,12 @@
 # input multiple value
 
-# x = int(input("Enter any number: "))
-# print(x, type(x))
+ x = int(input("Enter any number: "))
+ print(x, type(x))
 
-# x,y,z = input("Enter 3 number: ").split()
-# print(x)
-# print(y)
-# print(z)
+ x,y,z = input("Enter 3 number: ").split()
+ print(x)
+ print(y)
+ print(z)
 
 #x,y,z = input("Enter 3 number: ").split() #.split(',')
 # print(x)
@@ -25,6 +25,6 @@ print(mylist)
 # mylist = [int(x) for x in input('Enter any number: ').split()]
 # print(mylist)
 
- myeven = [int(x) for x in
-           input('Enter any number: ').split() if int(x)%2==0]
- print(myeven)
+ #myeven = [int(x) for x in
+           #input('Enter any number: ').split() if int(x)%2==0]
+ #print(myeven)

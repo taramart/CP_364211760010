@@ -21,7 +21,7 @@ while True:
 print(a)
 
 f = open("final1.txt", 'a')
-a = [ ]
+a = []
 while True:
     x = int(input())
     if x == 10:

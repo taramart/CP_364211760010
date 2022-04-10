@@ -23,13 +23,23 @@ o = 11
 u = 1 
 
 """
-a = []
-data = ['a', 'e', 'i' , 'o' , 'u']
-count = 0
+while(True):
+    phrase = input('Enter message: ')
+    if phrase == 'end':
+        quit()
+    lower = str.lower(phrase)
+    convert = list(lower)
+    a = convert.count('a')
+    e = convert.count('e')
+    i = convert.count('i')
+    o = convert.count('o')
+    u = convert.count('u')
 
-for x in range(len(data)):
-    for y in range(len(data[x])):
-        if( data[x][y].islower() ):
-            count = count + 1
-
-print('Lowercase letters = '+str(count))
+    vowel = a + e + i + o + u
+    break
+print ('\n''Total vowels = ', vowel)
+print ('a = ', a)
+print ('e = ', e)
+print ('i = ', i)
+print ('o = ', o)
+print ('u = ', u)
